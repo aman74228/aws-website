@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:auto}
+.container{width:1170px;margin:auto}
+
+.first {
+float:left;
+background-color:#C01518;
+height: 95px;
+width:100%;
+}
+
+.text { 
+    float: left;
+    font-size: 32px;
+    margin-top: 26px;
+    font-family: sans-serif;
+    color: #faf6f1;
+    font-weight: 600
+}
+
+.second {
+float:left;
+background-color:#CDE9FF;
+height: 400px;
+width:100%;
+}
+
+.text2 { 
+  font-size: 25px;
+    margin-top: 66px;
+    font-family: math;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+form{margin-top: 50px;}
+input{
+	margin-top: 10px;
+	width: 30%;
+}

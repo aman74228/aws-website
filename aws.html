@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CC aws ec2</title>
+	<link href="aws.css" rel="stylesheet" type="text/css"  />
+</head>
+
+<body>
+	<div class = "menu">
+		<div class="first">
+	<div class = "container">
+		<div class = "text">Ganpat university
+		</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="second">
+	<div class="container">
+		<div class="text2">Check your details</div>
+		<form onsubmit="takevalue()">
+			<label for= "name">Enter your name:</label><br>
+			<input type="text" id="name" name="name"><br><br>
+			<label for= "enr">Enter your enrollment number:</label><br>
+			<input type="number" id="enr" name="enr"><br><br>
+			<input type="submit" value="submit"><br>
+		
+		</form>
+		
+		<script>
+		 function takevalue(){
+			 var name = document.getElementById("name").value;
+			 
+			  var enr = document.getElementById("enr").value;
+			 
+			  
+			 document.write("Your name: " + name + "<br>");
+			 document.write("Your enrollment number: " + enr + "<br>");
+			 
+		 }
+		
+		
+		</script>
+		</div>
+	</div>
+</body>
+</html>
